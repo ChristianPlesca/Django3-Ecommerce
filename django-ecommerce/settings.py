@@ -43,7 +43,8 @@ INSTALLED_APPS = [
     'allauth.socialaccount',
     'home',
     'products',
-    'cart'
+    'cart',
+    'crispy_forms'
 ]
 
 MIDDLEWARE = [
@@ -156,3 +157,5 @@ MEDIA_ROOT = os.path.join(BASE_DIR, 'media')
 
 FREE_DELIVERY_THRESHOLD = 50
 STANDARD_DELIVERY_PERCENTAGE = 10
+
+CRISPY_TEMPLATE_PACK = 'bootstrap4'
