@@ -11,6 +11,7 @@ django-allauth = "*"
 pillow = "*"
 django-crispy-forms = "*"
 stripe = "*"
+django-countries = "*"
 
 [requires]
 python_version = "3.6"
