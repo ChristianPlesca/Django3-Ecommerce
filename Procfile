@@ -1,0 +1,1 @@
+web: gunicorn django3-e-commerce.wsgi:application 
